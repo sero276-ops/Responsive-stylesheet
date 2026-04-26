@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+div {
+    width: 100%;
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 772px) {
+    
+    div {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        margin: 2%;
+    }
+
+    img {
+        max-height: 30vh;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 998px) {
+    
+    div {
+        width: 30%;
+    }
+
+}
